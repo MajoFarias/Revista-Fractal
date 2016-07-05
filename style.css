@@ -6270,6 +6270,57 @@ footer {
     footer section:nth-child(2) p {
       font-size: 13px; }
 
+.titulo {
+  background-color: #f2f2f2;
+  padding-top: 140px;
+  padding-bottom: 140px; }
+  .titulo article {
+    margin: 0 20%; }
+  .titulo h1 {
+    font-size: 40px;
+    color: black;
+    margin: 0;
+    font-weight: 600; }
+  .titulo h2 {
+    font-size: 30px;
+    margin: 0 0 10px 0;
+    color: white;
+    font-weight: 300;
+    color: #CB9500; }
+  .titulo h3 {
+    color: #CB9500;
+    padding: 10px 30px;
+    border: 2px solid #CB9500;
+    width: 147px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px; }
+
+.raya {
+  border-bottom: 4px solid #CB9500;
+  width: 100px;
+  padding-bottom: 30px;
+  margin: 0 0 -40px 0; }
+
+.texto {
+  border-top: 1px solid #ddd;
+  background-color: white;
+  padding: 60px 80px;
+  margin: -100px 20% 100px;
+  text-align: justify; }
+  .texto p:nth-child(1):first-letter {
+    font-size: 70px;
+    float: left;
+    margin: 0px 10px -7px 0;
+    line-height: 0.8;
+    color: #ccc;
+    font-weight: 700; }
+  .texto blockquote {
+    border-left: 1px solid #ccc;
+    margin: 20px;
+    padding: 20px;
+    font-style: normal; }
+
 @font-face {
   font-weight: normal;
   font-style: normal;
