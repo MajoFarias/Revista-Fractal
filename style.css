@@ -6336,8 +6336,8 @@ footer {
   .texto h4:after {
     content: "";
     display: block;
-    height: 2px;
-    width: 85px;
+    height: 6px;
+    width: 30px;
     background: #CB9500;
     margin-top: 15px; }
   .texto hr {
