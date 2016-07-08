@@ -731,12 +731,15 @@ footer{
     background-color:#f2f2f2;
     padding-top:140px;
     padding-bottom:140px;
+    background-image: url('assets/images/fotoarticle.jpg');
+
     article{
-    margin: 0 20%;
+    margin: 0 17%;
 }
     h1{
         font-size: 40px;
-        color:black;
+        color: #ccc;
+        width: 500px;
         margin:0;
         font-weight: 600;
     }
@@ -751,14 +754,15 @@ footer{
 
     h3{
     color: #CB9500;
-    padding: 10px 30px;
-    border: 2px solid #CB9500;
-    width: 147px;
+    padding: 10px 20px;
+    border: 2px solid $ocrelight;
+    width: 129px;
     text-transform: uppercase;
     font-weight: 600;
     font-size: 14px;
     }
     
+   
 }
 
 .raya{
@@ -771,27 +775,76 @@ footer{
 }
 
 .texto{
-    border-top:1px solid #ddd;
+    border:1px solid #ddd;
     background-color:white;
-    padding:60px 80px;
-    margin: -100px 20% 100px;
+    padding:60px 30px;
+    margin: -100px 17% 100px;
     text-align: justify;
 
-    p:nth-child(1):first-letter{
+    p{
+        padding-left:0px;
+        padding-right:20px;
+    }
+
+    p:nth-child(1){
+    font-size: 17px;
+    padding: 30px;
+    background: #f4f4f4;
+    margin-right: 17px;
+
+    }
+
+    p:nth-child(2):first-letter{
         font-size: 70px; 
         float: left; 
         margin: 0px 10px -7px 0; 
         line-height: 0.8; 
-        color: #ccc;
+        color: $ocrelight;
         font-weight: 700;
 
     }
     blockquote{
-        border-left:1px solid #ccc;
         margin:20px;
         padding:20px;
         font-style: normal;
     }
 
+     h4{
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: 900;
+    }
+
+    h4:after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 85px;
+    background: $ocrelight;
+    margin-top: 15px;
+    }
+
+    hr{
+        color:$ocrelight;
+    }
+
+    .bio{
+        border-left:1px solid #ccc;
+        padding-left:30px;
+        font-size: 12px;
+        line-height: 20px;
+        margin-top: 20px;
+        text-align: left;
+
+        h5{
+        font-size: 15px;
+        margin:0;
+        text-transform: uppercase;
+        color:$ocrelight;
+    }
+
+    }
 }
+
+
 

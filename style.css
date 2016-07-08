@@ -6273,12 +6273,14 @@ footer {
 .titulo {
   background-color: #f2f2f2;
   padding-top: 140px;
-  padding-bottom: 140px; }
+  padding-bottom: 140px;
+  background-image: url("assets/images/fotoarticle.jpg"); }
   .titulo article {
-    margin: 0 20%; }
+    margin: 0 17%; }
   .titulo h1 {
     font-size: 40px;
-    color: black;
+    color: #ccc;
+    width: 500px;
     margin: 0;
     font-weight: 600; }
   .titulo h2 {
@@ -6289,9 +6291,9 @@ footer {
     color: #CB9500; }
   .titulo h3 {
     color: #CB9500;
-    padding: 10px 30px;
+    padding: 10px 20px;
     border: 2px solid #CB9500;
-    width: 147px;
+    width: 129px;
     text-transform: uppercase;
     font-weight: 600;
     font-size: 14px; }
@@ -6303,23 +6305,55 @@ footer {
   margin: 0 0 -40px 0; }
 
 .texto {
-  border-top: 1px solid #ddd;
+  border: 1px solid #ddd;
   background-color: white;
-  padding: 60px 80px;
-  margin: -100px 20% 100px;
+  padding: 60px 30px;
+  margin: -100px 17% 100px;
   text-align: justify; }
-  .texto p:nth-child(1):first-letter {
+  .texto p {
+    padding-left: 0px;
+    padding-right: 20px; }
+  .texto p:nth-child(1) {
+    font-size: 17px;
+    padding: 30px;
+    background: #f4f4f4;
+    margin-right: 17px; }
+  .texto p:nth-child(2):first-letter {
     font-size: 70px;
     float: left;
     margin: 0px 10px -7px 0;
     line-height: 0.8;
-    color: #ccc;
+    color: #CB9500;
     font-weight: 700; }
   .texto blockquote {
-    border-left: 1px solid #ccc;
     margin: 20px;
     padding: 20px;
     font-style: normal; }
+  .texto h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 900; }
+  .texto h4:after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 85px;
+    background: #CB9500;
+    margin-top: 15px; }
+  .texto hr {
+    color: #CB9500; }
+  .texto .bio {
+    border-left: 1px solid #ccc;
+    padding-left: 30px;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 20px;
+    text-align: left; }
+    .texto .bio h5 {
+      font-size: 15px;
+      margin: 0;
+      text-transform: uppercase;
+      color: #CB9500; }
 
 @font-face {
   font-weight: normal;
