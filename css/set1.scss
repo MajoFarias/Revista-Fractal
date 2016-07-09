@@ -13,9 +13,14 @@
 	position: relative;
 	margin: 0 auto;
 	padding: 1em 0 4em;
-	max-width: 90%;
+	max-width: 79%;
 	list-style: none;
 	text-align: center;
+	@media (max-width:1680px){
+		max-width: 90%;
+		padding:1em 0 4em 2em;
+	}
+
 	@media (max-width:1500px){
 		max-width: 100%;
 		padding:1em 0 4em 2em;
