@@ -1,57 +1,4 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<title>Revista Fractal</title>
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<link rel="stylesheet" href="../style.css">
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<script></script>
-</head>
-<body>
-
-<header>
-	<nav class="menu navbar navbar-default navbar-fixed-top">
-		  <section class="menu-margen">
-		    <!-- Brand and toggle get grouped for better mobile display -->
-		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-		        <span class="sr-only">Toggle navigation</span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		      </button>
-		      
-		      <a class="" href="../index.html">
-		        <img class="img-responsive" alt="Brand" src="../assets/images/logo.jpg">
-		      </a>
-
-		    </div>
-              
-		    <!-- Collect the nav links, forms, and other content for toggling -->
-		    <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-		      <ul class="nav navbar-nav">
-		      	<li><a href="#">Números</a></li>
-		      	<li><a href="#">Tópicos</a></li>
-		        <li class="dropdown">
-		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nosotros<span class="caret"></span></a>
-		          <ul class="dropdown-menu">
-		            <li><a href="departamentos.html">Los orígenes</li>
-		            <!--<li role="separator" class="divider"></li>-->
-		            <li><a href="ubicacion.html">Quiénes somos</a></li>
-		          </ul>
-		        </li>
-		        <li><a href="#">Libros</a></li>
-		        <li><a href="#">Contacto</a></li>
-		        
-
-		      </ul>
-		      
-		    </div><!-- /.navbar-collapse -->
-		    </section>		    			  
-	</nav>
-</header>
+<?php include 'header.php' ?>
 
 <section class="titulo">
 	<article class="">
@@ -64,13 +11,10 @@
 </section>
 <section class="texto container-fluid">
 <div class="col-sm-9">
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non tempus erat. In scelerisque erat in sollicitudin sollicitudin. Nullam finibus auctor laoreet. Nulla convallis vulputate dui, nec euismod libero aliquam hendrerit. Pellentesque mattis risus eros, ut pellentesque enim condimentum lobortis. Quisque id arcu lacinia, rhoncus velit eu, vulputate diam.
-	</p>
-    <p></p><br>
-    <p align="right" style="font-size:13px;"><em>Tú que cubriste con doble hoja forjada </em><br>
+    <p align="right" style="font-size:13px; margin-bottom:40px;"><em>Tú que cubriste con doble hoja forjada </em><br>
       <em>en el oro más fino el brazo manco </em><br>
       <em>y paupérrimo del viejo Cervantes.</em><br>
-      Herman Melville</p><br>
+      Herman Melville</p>
       
     <p>El 28 de septiembre de 1605, llegó a San Juan de Ulúa una flota de diez navíos que transportaba numerosas mercancías desde Sevilla y Cádiz. Por disposición del rey, un comisario del Santo Oficio debía revisar, lista en mano, cada objeto que ingresaba al Nuevo Mundo, a la caza de libros prohibidos. <em>La Encarnación</em> (2), <em>Nuestra Señora de los Remedios</em> (2) y el <em>San Cristóbal</em> (1) transportaron los primeros cinco ejemplares de <em>El ingenioso hidalgo don Quijote de la Mancha</em> que recibieron el sol americano, todos propiedad de sendos marineros. En la lista del cargamento de libros descollaban cuatro ejemplares del <em>Guzmán de Alfarache</em> (el <em>best seller</em> del momento), dos de <em>La arcadia</em> de Lope de Vega, uno de <em>Las metamorfosis</em> de Ovidio y otro de <em>El </em><em>Çid</em><em> Rui Diaz</em>. El <em>Quijote</em> había sido publicado el 6 de enero de 1605, según documentos de la imprenta de Juan de la Cuesta, en Madrid, y fue editado por Francisco de Robles, con un tiraje de 500 ejemplares. Visto el éxito de la novela, De la Cuesta reimprimió 1,800 copias más.</p>
     <p>La primera novela moderna encontró en los americanos unos lectores naturales que vinieron a construir y habitar la Utopía. Y otro hecho la vincula con México, mencionado tres veces en ella: Cervantes solicitó ser trasladado al Nuevo Mundo en calidad de encomendero, cosa que no sucedió.</p>
@@ -95,49 +39,8 @@
 </div>
 <div class="col-sm-3 bio">
 <h5>Sobre el autor</h5>
-Vivamus tempus dictum erat ut varius. Etiam in nulla mi. Quisque metus leo, ullamcorper nec nisl sed, facilisis semper ante. Phasellus feugiat egestas velit nec condimentum. Etiam viverra ligula eros, molestie molestie arcu varius eget. Morbi rhoncus orci sit amet lorem tempor, ut luctus nibh consectetur. Nunc finibus magna id mauris pulvinar, pellentesque dignissim nibh feugiat.</div>
+Carlos Miranda nació en la Ciudad de México en 1962. Realizó estudios de Ciencias Políticas y Periodismo en la UNAM. Ha sido editor de las revistas Casa del Tiempo, Tierra Adentro, Textual, El Periódico de Poesía y el Boletín del Archivo General de la Nación. Ha colaborado desde 1984, con ensayos, reseñas, cuentos, entrevistas y traducciones, en los principales suplementos y revistas del país. Es autor de los libros de cuentos Noches de paz (Ediciones del Equilibrista, col. Tramp Steamer, 1997) y Siempre es peor en noches de paz (DGP Conaculta, 2013). cmiranda1962@gmail.com
+</div>
 </section>
 	
-<footer>
-<section class="container">
-	<article class="col-xx col-xs-5 col-sm-4 col-md-4">
-	<img src="../assets/images/logoblanco.png">
-	<p>Revista Iberoamericana de ensayo y literatura</p>
-	</article>
-	<article class="col-xx col-xs-4 col-sm-4 col-md-4">
-		<h3>Contenido</h3>
-		<ul class="col-sm-6 col-md-5">
-			<li><a href="">Números</a></li>
-			<li><a href="">Tópicos</a></li>
-			<li><a href="">Libros</a></li>
-		</ul>
-		<ul class="col-sm-6 col-md-6">
-			<li><a href="">Nosotros</a></li>
-			<li><a href="">Contacto</a></li>
-		</ul>
-	</article>
-		
-	<article class="col-xx col-xs-3 col-sm-4 col-md-4">
-		<h3>Redes sociales</h3>
-		<a href=""><img src="../assets/images/face.png" alt=""></a>
-		<a href=""><img src="../assets/images/twitter.png" alt=""></a>
-	</article>
-</section>
-<section class="">
-	<article class="container">
-	<p class="col-sm-offset-8 col-sm-4">Todos los derechos reservados Fractal 2016</p>
-	</article>
-</section>
-
-</footer>
-
-
-
-
-
-
-	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-	<script src="../assets/js/bootstrap.js"></script>
-	<script src="../assets/js/main.js"></script>
-</body>
-</html>
+<?php include 'footer.php' ?>

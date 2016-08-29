@@ -1,57 +1,4 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<title>Revista Fractal</title>
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<link rel="stylesheet" href="../style.css">
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<script></script>
-</head>
-<body>
-
-<header>
-	<nav class="menu navbar navbar-default navbar-fixed-top">
-		  <section class="menu-margen">
-		    <!-- Brand and toggle get grouped for better mobile display -->
-		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-		        <span class="sr-only">Toggle navigation</span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		      </button>
-		      
-		      <a class="" href="../index.html">
-		        <img class="img-responsive" alt="Brand" src="../assets/images/logo.jpg">
-		      </a>
-
-		    </div>
-              
-		    <!-- Collect the nav links, forms, and other content for toggling -->
-		    <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-		      <ul class="nav navbar-nav">
-		      	<li><a href="#">Números</a></li>
-		      	<li><a href="#">Tópicos</a></li>
-		        <li class="dropdown">
-		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nosotros<span class="caret"></span></a>
-		          <ul class="dropdown-menu">
-		            <li><a href="departamentos.html">Los orígenes</li>
-		            <!--<li role="separator" class="divider"></li>-->
-		            <li><a href="ubicacion.html">Quiénes somos</a></li>
-		          </ul>
-		        </li>
-		        <li><a href="#">Libros</a></li>
-		        <li><a href="#">Contacto</a></li>
-		        
-
-		      </ul>
-		      
-		    </div><!-- /.navbar-collapse -->
-		    </section>		    			  
-	</nav>
-</header>
+<?php include 'header.php' ?>
 
 <section class="titulo">
 	<article class="">
@@ -64,10 +11,7 @@
 </section>
 <section class="texto container-fluid">
 <div class="col-sm-9">
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non tempus erat. In scelerisque erat in sollicitudin sollicitudin. Nullam finibus auctor laoreet. Nulla convallis vulputate dui, nec euismod libero aliquam hendrerit. Pellentesque mattis risus eros, ut pellentesque enim condimentum lobortis. Quisque id arcu lacinia, rhoncus velit eu, vulputate diam.</p>
-     <p></p>
-
-    <p>Querido Carlos:*<a href="#_ftn1" name="_ftnref1" title=""> </a></p>
+    <p>Querido Carlos:<del>*</del></p>
     <p>No tengo un &ldquo;capítulo favorito&rdquo; del <em>Quijote</em>. A veces ha sido la cueva de Montesinos y, a veces, los galeotes, con su absurdo discurso justiciero. Probablemente toda la secuencia con los malvados duques sea mi favorita, pero son varios capítulos. El gobierno de Sancho; la noche en que los duques maquinan a Dulcinea; el diálogo de Sansón Carrasco y Antonio Moreno, con la serie de engaños de don Antonio (cabeza incluida) y los desengaños, uno fallido, el otro no (y que cada quien elija cuál falla y cuál acierta), de Sansón Carrasco en sus dos distintas armaduras, la de los espejos y la de la blanca luna. O, aunque demasiado breve, el modo de hablar del vizcaíno. O, de plano, la descripción que hace el labrador negociante ante el gobernador Sancho, que es una página absolutamente cruel y marciana:<br><br>
       —Digo, pues —dijo el labrador—, que este mi hijo que ha de ser bachiller se enamoró en el mesmo pueblo de una doncella llamada Clara Perlerina, hija de Andrés Perlerino, labrador riquísimo; y este nombre de Perlerines no les viene de abolengo ni otra alcurnia, sino porque todos los deste linaje son perláticos [paralíticos], y por mejorar el nombre los llaman Perlerines; aunque, si va decir la verdad, la doncella es como una perla oriental, y, mirada por el lado derecho, parece una flor del campo; por el izquierdo no tanto, porque le falta aquel ojo, que se le saltó de viruelas; y, aunque los hoyos del rostro son muchos y grandes, dicen los que la quieren bien que aquéllos no son hoyos, sino sepulturas donde se sepultan las almas de sus amantes. Es tan limpia que, por no ensuciar la cara, trae las narices, como dicen, arremangadas, que no parece sino que van huyendo de la boca; y, con todo esto, parece bien por estremo, porque tiene la boca grande, y, a no faltarle diez o doce dientes y muelas, pudiera pasar y echar raya entre las más bien formadas. De los labios no tengo qué decir, porque son tan sutiles y delicados que, si se usaran aspar labios, pudieran hacer dellos una madeja; pero, como tienen diferente color de la que en los labios se usa comúnmente, parecen milagrosos, porque son jaspeados de azul y verde y aberenjenado; y perdóneme el señor gobernador si por tan menudo voy pintando las partes de la que al fin al fin ha de ser mi hija, que la quiero bien y no me parece mal.<br><br>
       —Pintad lo que quisiéredes —dijo Sancho—, que yo me voy recreando en la pintura, y si hubiera comido, no hubiera mejor postre para mí que vuestro retrato.<br><br>
@@ -91,7 +35,7 @@
       Por eso, querido Carlos, mejor me excusas de participar en un homenaje quijotista.<br><br>
       Recibe un saludo de tu amigo.</p>
       
-        <p><span style="font-size:12px;"><a href="#_ftnref1" name="_ftn1" title=""> </a>*Carlos Miranda es el coordinador de este proyecto.</span></p>
+        <p><span style="font-size:12px;"><del>*</del>Carlos Miranda es el coordinador de este proyecto.</span></p>
         <p style="text-align:center;">
   <img src="../assets/images/icon.png" style="width:50px" alt="">
 </p>
@@ -99,49 +43,8 @@
 </div>
 <div class="col-sm-3 bio">
 <h5>Sobre el autor</h5>
-Vivamus tempus dictum erat ut varius. Etiam in nulla mi. Quisque metus leo, ullamcorper nec nisl sed, facilisis semper ante. Phasellus feugiat egestas velit nec condimentum. Etiam viverra ligula eros, molestie molestie arcu varius eget. Morbi rhoncus orci sit amet lorem tempor, ut luctus nibh consectetur. Nunc finibus magna id mauris pulvinar, pellentesque dignissim nibh feugiat.</div>
+Julio Hubard es un poeta, ensayista, editor y traductor nacido en 1962 en la Ciudad de México. Estudio Filosofía en la Facultad de Filosofía y Letras de la UNAM. Ha participado en los consejos de redacción de La Gaceta del FCE, Textual, Letras Libres y Vuelta. Forma parte del Sistema Nacional de Creadores de Arte desde 1999. Ha publicado los libros <em>Sangre. Notas para la historia de una idea</em> (2006) y <em>Hacéldama</em> (2009).
+</div>
 </section>
 	
-<footer>
-<section class="container">
-	<article class="col-xx col-xs-5 col-sm-4 col-md-4">
-	<img src="../assets/images/logoblanco.png">
-	<p>Revista Iberoamericana de ensayo y literatura</p>
-	</article>
-	<article class="col-xx col-xs-4 col-sm-4 col-md-4">
-		<h3>Contenido</h3>
-		<ul class="col-sm-6 col-md-5">
-			<li><a href="">Números</a></li>
-			<li><a href="">Tópicos</a></li>
-			<li><a href="">Libros</a></li>
-		</ul>
-		<ul class="col-sm-6 col-md-6">
-			<li><a href="">Nosotros</a></li>
-			<li><a href="">Contacto</a></li>
-		</ul>
-	</article>
-		
-	<article class="col-xx col-xs-3 col-sm-4 col-md-4">
-		<h3>Redes sociales</h3>
-		<a href=""><img src="../assets/images/face.png" alt=""></a>
-		<a href=""><img src="../assets/images/twitter.png" alt=""></a>
-	</article>
-</section>
-<section class="">
-	<article class="container">
-	<p class="col-sm-offset-8 col-sm-4">Todos los derechos reservados Fractal 2016</p>
-	</article>
-</section>
-
-</footer>
-
-
-
-
-
-
-	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-	<script src="../assets/js/bootstrap.js"></script>
-	<script src="../assets/js/main.js"></script>
-</body>
-</html>
+<?php include 'footer.php' ?>

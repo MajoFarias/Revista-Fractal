@@ -6,12 +6,27 @@ p,li{
     font-size: 15px;
 }
 
+.sup{
+
+}
+
+del{
+    text-decoration: none;
+    font-size: 10px;
+    vertical-align: top;
+}
+
 div{
      @media (max-width:768px){
-        padding: 0 5%;
+        padding: 0;
     }
 }
 
+.glyphicon-chevron-left{
+    @media (max-width:768px){
+    margin-left:-30px !important;
+    }
+}
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     @media (max-width:768px){
     border-color:#e7e7e7;
@@ -65,9 +80,15 @@ div{
 }
 .carousel{
     top:80px;
+    @media (max-width:768px){
+        top:60px;
+    }
 }
 .slider{
     height: 850px;
+    @media (max-width:768px){
+        height: 467px;
+    }
 }
 
 .menu-margen{
@@ -132,6 +153,12 @@ a{
     width: 601px;
     padding-right: 50px;
     padding-left: 12%;
+    @media (max-width:768px){
+        padding-left:20%;
+        padding-top: 100px;
+        width: 100%;
+
+    }
 
     a{
         color:white;
@@ -144,8 +171,13 @@ a{
             margin-bottom: 0px;
             margin-top: 0px;
             font-weight: 600;
+            transition: all .2s linear;
+            @media (max-width:768px){
+                font-size: 37px;
+                line-height: 49px;
+            }
             &:hover{
-                opacity: 0.7;
+                opacity: 0.5;
             }
         }
 
@@ -156,12 +188,53 @@ a{
         width: 160px;
         text-transform: uppercase;
         font-weight: 600;
+        @media (max-width:768px){
+            font-size: 12px;
+            width: 136px;
+        }
+
         }
 
         h2{
         color: $ocrelight;
         font-size: 25px;
         font-weight: 400;
+        transition: all .2s linear;
+
+            @media (max-width:768px){
+                font-size: 20px;
+                margin-top: 5px;
+            }
+        &:hover{
+                opacity: 0.5;
+        }
+
+        }
+
+    }
+
+    p{
+        margin-top: 140px;
+        @media (max-width:768px){
+            margin-top:60px;
+        }
+        @media (max-width:480px){
+           display: none;
+        }
+
+        a{  
+            font-size: 18px;
+            text-transform: uppercase;
+            color:#ccc;
+            font-weight: 100;
+            text-decoration: none;
+            &:hover{
+                opacity: .5;
+            }
+        i{
+            vertical-align: sub;
+            color:$ocrelight;
+        }
 
         }
     }
@@ -175,7 +248,7 @@ a{
         padding:80px 0px;
     }
     @media (max-width:768px){
-        padding:80px 40px;
+        padding:40px 40px;
     }
     .container{
         div:nth-child(2){
@@ -221,6 +294,10 @@ a{
     
         li{
             margin-top:15px;
+            transition: all .3s linear;
+            &:hover{
+                padding-left:10px;
+            }
 
             a{
                 color: black;
@@ -232,9 +309,11 @@ a{
                 }
 
                 &:hover{
-                    color:$ocrelight; 
+                    border-bottom: 1px dotted;
 
-                               }
+
+
+                }
 
                 em{
                     font-weight: 700;
@@ -383,6 +462,9 @@ h1.numero {
     i{
         font-size: 100px;
         line-height: 0px;
+        @media (max-width:768px){
+            font-size: 60px;
+        }
     }
 
 }
@@ -438,7 +520,7 @@ h1.numero {
                 cursor: pointer;
 
                 &:hover{
-                    color:$ocre; 
+                    color:$ocrelight; 
 
                                }
 
@@ -494,17 +576,32 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', end
 
 }
 
-.item{
-    div:nth-child(2){
-        @media (max-width:992px){
-            padding-right:10%;
-        }
-        @media (max-width:768px){
-            padding-right:0%;
+section.principal {
+.carousel-inner{
+        .item{
+            overflow: hidden;
+                img{
+                    @media (max-width:768px){
+                        width: 1000px;
+                    }
+                }
+            }
+        
+        .item:nth-child(3){
+            @media (max-width:1280px){
+                img{
+                    transform: translatex(-16%);
+                    -webkit-transform: translatex(-16%);
+                    -moz-transform: translatex(-16%);
+                    -o-transform: translatex(-16%);
+                    -ms-transform: translatex(-16%);
+                }
+            }
         }
     }
-
 }
+
+
 
 
 .laciudad{
@@ -549,8 +646,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', end
     margin-top: -70px;
 
         .carousel-indicators{
-            bottom:-5px;
+            bottom:-15px;
+            .active{
+                background-color:grey;
+            }
+            li{
+                border: 1px solid grey;
+            }
         }
+
 
         .imagen-libro{
             padding-left:30px;
@@ -559,6 +663,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', end
                 margin-bottom: 20px;
             }
 
+        }
+
+        .texto-libro{
+            p{
+                margin-bottom: 30px;
+            }
+            a{
+            color:black;
+            &:hover{
+                color:$ocre;
+            }
+        }
+        
         }
 
         h2,h3{
@@ -608,7 +725,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', end
 
     h2{
         color:white;
-        font-size: 30px;
+        font-size: 25px;
         font-weight: 700 !important;
         text-transform: inherit;
         text-align: left;
@@ -822,7 +939,7 @@ footer{
     @media (max-width:768px){
         margin:-100px 0% 100px;
         border:none;
-        padding:20px 0px;
+        padding:20px 10px;
         text-align: left;
 
     }
@@ -836,7 +953,7 @@ footer{
         }
     }
 
-    p:nth-child(1){
+    /*p:nth-child(1){
     font-size: 17px;
     padding: 30px;
     background: #f4f4f4;
@@ -845,7 +962,7 @@ footer{
         font-size: 14px;
         margin-right:0px;
     }
-    }
+    }*/
 
     p:nth-child(2):first-letter{
         font-size: 70px; 
@@ -891,6 +1008,11 @@ footer{
         line-height: 20px;
         margin-top: 20px;
         text-align: left;
+        @media (max-width:768px){
+            float: left;
+            margin-top: 40px;
+
+        }
 
         h5{
         font-size: 15px;
@@ -902,5 +1024,89 @@ footer{
     }
 }
 
+.origenes{
+    margin: 78px 17% 50px;
+    padding: 60px 50px 30px;
+    background-color: #eee;
+    @media (max-width:1400px){
+        margin:78px 10% 50px;
+    }
+    @media (max-width:1400px){
+        margin:78px 3% 50px;
+    }
+    @media (max-width:768px){
+        margin:60px 3% 50px;
+    }
+    @media (max-width:480px){
+        margin:60px 0% 50px;
+        padding:40px 20px 30px;
+    }
+    h1{
+    font-size: 30px;
+    width: 286px;
+    margin: 0;
+    font-weight: 600;
+    padding-bottom: 30px;
+    background-color: black;
+    margin-left: -49px;
+    color:#eee;
+    padding-left: 40px;
+    padding-top: 20px;
+    margin-bottom:40px;
+
+    }
+    p:nth-child(2):first-letter{
+        font-size: 40px; 
+        float: left; 
+        margin: 0px 10px -7px 0; 
+        line-height: 0.8; 
+        color: $ocrelight;
+        font-weight: 700;
+
+    }
+    h2{
+        margin:40px 0 30px;
+        text-align: center;
+    }
+    h2:after{
+    content: "";
+    display: block;
+    height: 3px;
+    width: 30px;
+    background: #CB9500;
+    margin-top: 7px !important;
+    text-align: center;
+    margin: auto;
+    }
+
+    h3{
+        margin:40px 0 10px;
+        text-align: left;
+    }
+    h3:after{
+    content: "";
+    display: block;
+    height: 3px;
+    width: 30px;
+    background: #CB9500;
+    margin-top: 7px !important;
+    }
+    p:last-child{
+        text-align: right;
+        font-style: italic;
+
+    }
+}
+
+.quienes{
+    h3:after{
+    content: "";
+    display: none;
+    height: 3px;
+    width: 30px;
+    background: #CB9500;
+    margin-top: 7px !important;
+    }
+}
 
 

@@ -1,55 +1,4 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<title>Revista Fractal</title>
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<link rel="stylesheet" href="style.css">
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<script></script>
-</head>
-<body>
-
-<header>
-	<nav class="menu navbar navbar-default navbar-fixed-top">
-		  <section class="menu-margen">
-		    <!-- Brand and toggle get grouped for better mobile display -->
-		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-		        <span class="sr-only">Toggle navigation</span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		      </button>
-		      
-		      <a class="" href="index.html">
-		        <img class="img-responsive" alt="Brand" src="assets/images/logo.jpg">
-		      </a>
-
-		    </div>
-              
-		    <!-- Collect the nav links, forms, and other content for toggling -->
-		    <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-		      <ul class="nav navbar-nav">
-		      	<li><a href="anteriores.html">Números</a></li>
-		      	<!--<li><a href="#">Tópicos</a></li>-->
-		        <li class="dropdown">
-		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nosotros<span class="caret"></span></a>
-		          <ul class="dropdown-menu">
-		            <li><a href="losorigenes.php">Los orígenes</li>
-		            <!--<li role="separator" class="divider"></li>-->
-		            <li><a href="quienessomos.php">Quiénes somos</a></li>
-		          </ul>
-		        </li>
-		        <li><a href="http://mxfractal.wixsite.com/librosfractal">Libros</a></li>
-		        <li><a href="http://www.mxfractal.org/">Archivo Fractal</a></li>
-		        <li><a href="contacto.html">Contacto</a></li>
-		      </ul> 
-		    </div>
-		    </section>		    			  
-	</nav>
-</header>
+<?php include 'header.php' ?>
 
 <section class="slider principal">
 	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -66,10 +15,13 @@
 	    <div class="item active">
 	      <img src="assets/images/edificio.jpg" alt="...">
 	      <div class="texto-slide carousel-caption">
-	        <a href="articulos/RevistaFractal74GiorgioAgamben.html">
+	        <a href="articulos/RevistaFractal74GiorgioAgamben.php">
 	        <h3 class="numero wow fadeIn" data-wow-delay=".4s">Número 74</h3>
 	        <h1 class="wow fadeIn" data-wow-delay=".6s">La potencia destituyente</h1>
-	        <h2 class="wow fadeIn" data-wow-delay=".8s">Giorgio Agamben </h2></a>
+	        <h2 class="wow fadeIn" data-wow-delay=".8s">Giorgio Agamben </h2>
+	        </a>
+
+	        <p><a class="page-scroll wow fadeIn" href="#1" data-wow-delay="1s">Todos Artículos <i class="material-icons">arrow_drop_down</i></a></p>
 	   	  </div>
 	    
 	   </div>
@@ -77,22 +29,24 @@
 	   <div class="item">
 	      <img src="assets/images/lamancha.jpg" alt="...">
 	      <div class="texto-slide carousel-caption">
-	      <a href="articulos/RevistaFractal74CarlosMiranda.html">
+	      <a href="articulos/RevistaFractal74CarlosMiranda.php">
 	        <h3 class="numero wow fadeIn" data-wow-delay=".4s">Número 74</h3>
 	        <h1 class="wow fadeIn" data-wow-delay=".6s">Fractales Quijotianos</h1>
 	        <h2 class="wow fadeIn" data-wow-delay=".8s">Carlos Miranda</h2>
 	      </a>
+			<p><a class="page-scroll wow fadeIn" href="#1" data-wow-delay="1s">Todos Artículos <i class="material-icons">arrow_drop_down</i></a></p>
 	      </div>
 	    </div>
 
 	    <div class="item">
 	      <img src="assets/images/gelmann.jpg" alt="...">
 	      <div class="texto-slide carousel-caption">
-	      <a href="articulos/RevistaFractal74DanteSaucedo.html">
+	      <a href="articulos/RevistaFractal74DanteSaucedo.php">
 	        <h3 class="numero wow fadeIn" data-wow-delay=".4s">Número 74</h3>
 	        <h1 class="wow fadeIn" data-wow-delay=".6s">Gelman Revisado</h1>
 	        <h2 class="wow fadeIn" data-wow-delay=".8s">Dante Saucedo</h2>
 	      </a>
+	      <p><a class="page-scroll wow fadeIn" href="#1" data-wow-delay="1s">Todos Artículos <i class="material-icons">arrow_drop_down</i></a></p>
 	      </div>
 	    </div>
 	 </div>
@@ -115,32 +69,32 @@
 		
 		<div class="col-xx-2 col-xs-12 col-sm-4 col-md-4"><img class="img-responsive" src="assets/images/portada74.jpg" alt=""></div>
 		<div class="col-xx-2 col-xs-6 col-sm-8 col-md-4">
-			<h2>La X y la Y</h2>
+			<h2 id="1">La X y la Y</h2>
 			<ul>
-				<li><a href="articulos/RevistaFractal74GiorgioAgamben.html">Para una teoría de la potencia destituyente<br><em>Giorgio Agamben</em></a></li>
-				<li><a href="articulos/RevistaFractal74DanteSaucedo.html">12 397. Fórmulas para poblar un desierto<br><em>Dante A. Saucedo</em></a></em>
+				<li><a href="articulos/RevistaFractal74GiorgioAgamben.php">Para una teoría de la potencia destituyente<br><em>Giorgio Agamben</em></a></li>
+				<li><a href="articulos/RevistaFractal74DanteSaucedo.php">12 397. Fórmulas para poblar un desierto<br><em>Dante A. Saucedo</em></a></li>
 			</ul>
 
 			<h2>Fugas sobre Cervantes</h2>
 			<ul>
-				<li><a href="articulos/RevistaFractal74CarlosMiranda.html">Fractales quijotianos<br><em>Carlos Miranda</a></em></a></li>
-				<li><a href="articulos/RevistaFractal74DanielSada.html">Las otras andanzas de don Quijote. El Ur-Quijote o la leyenda primitiva<br><em>Daniel Sada</a></em></a></li>
-				<li><a href="articulos/RevistaFractal74JulioHubard.html">Carta para excusarme de participar en un homenaje al Quijote<br><eåm>Julio Hubard</a></em></a></li>
+				<li><a href="articulos/RevistaFractal74CarlosMiranda.php">Fractales quijotianos<br><em>Carlos Miranda</em></a></li>
+				<li><a href="articulos/RevistaFractal74DanielSada.php">Las otras andanzas de don Quijote. El Ur-Quijote o la leyenda primitiva<br><em>Daniel Sada</em></a></li>
+				<li><a href="articulos/RevistaFractal74JulioHubard.php">Carta para excusarme de participar en un homenaje al Quijote<br><em>Julio Hubard</em></a></li>
 
 			</ul>	
 
 		</div>
 		<div class="col-xx-2 col-xs-6 col-sm-offset-4 col-sm-8 col-md-offset-0 col-md-4">
 			<ul>
-				<li><a href="articulos/RevistaFractal74JavierGarcia.html">El lector apócrifo<br><em>Javier García-Galiano</em></a></li>
-				<li><a href="articulos/RevistaFractal74AgustinRamos.html">¿Leoncitos a mí? Sueños incompatibles<br><em>Agustín Ramos</em></a></li>
-				<li><a href="articulos/RevistaFractal74GerardoDelaTorre.html">El puente y el río<br><em>Gerardo de la Torre</em></a></li>
-				<li><a href="articulos/RevistaFractal74ArmandoGonzales.html">El quijotismo o las desventuras de la virtud liberal en América Latina<br><em>Armando González Torres<br></em></a></li>
+				<li><a href="articulos/RevistaFractal74JavierGarcia.php">El lector apócrifo<br><em>Javier García-Galiano</em></a></li>
+				<li><a href="articulos/RevistaFractal74AgustinRamos.php">¿Leoncitos a mí? Sueños incompatibles<br><em>Agustín Ramos</em></a></li>
+				<li><a href="articulos/RevistaFractal74GerardoDelaTorre.php">El puente y el río<br><em>Gerardo de la Torre</em></a></li>
+				<li><a href="articulos/RevistaFractal74ArmandoGonzales.php">El quijotismo o las desventuras de la virtud liberal en América Latina<br><em>Armando González Torres<br></em></a></li>
 			</ul>
 
 			<h2>Líneas Breves</h2>
 			<ul>
-				<li><a href="">El anacronismo como método de interpretación de imágenes del pasado<br><em>Ilán Semo</a></em></a></li>
+				<li><a href="articulos/RevistaFractal74IlanSemo.php">El anacronismo como método de interpretación de imágenes del pasado<br><em>Ilán Semo</em></a></li>
 			</ul>
 
 		</div>
@@ -159,7 +113,7 @@
 				<h2>Unomasuno</h2>
 				<h3>Genoveva Flores Quintero</h3>
 				<p>El periódico Unomásuno de los años ochenta resulta central para el periodismo mexicano contemporáneo. Se trata de la historia de un grupo de periodistas que, apoyado por una sociedad harta de hegemonía del PRI, acompañó los movimientos guerrilleros </p>
-				<a href="articulos/unomasuno.html">Leer Más<i class="material-icons">keyboard_arrow_right</i></a>
+				<a href="edicionesfractal/unomasuno.php">Leer Más<i class="material-icons">keyboard_arrow_right</i></a>
 			</div>
 			
 		</div>
@@ -170,7 +124,7 @@
 				<h2>Defensas</h2>
 				<h3>Pedro Serrano</h3>
 				<p>Siempre he sabido que titular a esta serie de escrituras Defensas acarreaba deslices. La pensé y la sigo pensando de una manera irónica, y por esa razón en comentarios y mensajes privados la he llamado unas veces “parachoques” y otras “salpicaderas” o “parabrisas”. </p>
-				<a href="articulos/defensas.html">Leer Más<i class="material-icons">keyboard_arrow_right</i></a>
+				<a href="edicionesfractal/defensas.php">Leer Más<i class="material-icons">keyboard_arrow_right</i></a>
 			</div>
 			
 		</div>
@@ -201,7 +155,7 @@
 						</figcaption>			
 					</figure>
 					<figure class="effect-oscar wow fadeIn" data-wow-delay=".5s">
-						<img src="assets/images/jeanluc.png" alt="img16" />
+						<img src="assets/images/enciclof.jpg" alt="img16" />
 						<figcaption>
 							<h2>El acceso a las fuentes o un nuevo enciclopedismo digital<br> <span>Luigi Amara</span></h2>
 							
@@ -209,7 +163,7 @@
 						</figcaption>			
 					</figure>
 					<figure class="effect-oscar wow fadeIn" data-wow-delay=".7s">
-						<img src="assets/images/bola.png" alt="img16" />
+						<img src="assets/images/malestarf.jpg" alt="img16" />
 						<figcaption>
 							<h2>El malestar en la historia<br><span>Roger Chartier, Alfonso Mendiola, Ilán Semo</span></h2>
 							
@@ -242,24 +196,36 @@
 			    <div class="item active">
 			    <div class="col-xx col-xs-6 col-sm-6 imagen-libro"><img src="assets/images/juntenlospedazos.jpg" alt="...">
 			    </div>
-			     <div class="col-xx col-xs-6 col-sm-6">
+			     <div class="col-xx col-xs-6 col-sm-6 texto-libro">
 			        <h2 class="numero">Junten los pedazos</h2>
 			        <h3>Ismet Prcic</h3>
-			       <p>En sus Ejercicios espirituales (1548), Ignacio de Loyola, fundador de la Compañía de Jesús, plantea una "composición de lugar" como preámbulo y fundamento de la contemplación visual.
-			       </p>	
+			       <p><a href="laciudadeloslibros/juntenlospedazos.php">En sus Ejercicios espirituales (1548), Ignacio de Loyola, fundador de la Compañía de Jesús, plantea una "composición de lugar" como preámbulo y fundamento de la contemplación visual.
+			       </a></p>
 			      </div>
 			    </div>
+			    
 			    <div class="item">
-			    <div class="col-xx col-xs-6 col-sm-6 imagen-libro"><img src="assets/images/juntenlospedazos.jpg" alt="...">
+			    <div class="col-xx col-xs-6 col-sm-6 imagen-libro"><img src="assets/images/laescrituradeldesastre.jpg" alt="...">
 			    </div>
-			     <div class="col-xx col-xs-6 col-sm-6">
-			        <h2 class="numero">Junten los pedazos</h2>
-			        <h3>Ismet Prcic</h3>
-			       <p>En sus Ejercicios espirituales (1548), Ignacio de Loyola, fundador de la Compañía de Jesús, plantea una "composición de lugar" como preámbulo y fundamento de la contemplación visual.
-			       </p>
-
+			     <div class="col-xx col-xs-6 col-sm-6 texto-libro">
+			        <h2 class="numero">La escritura del desastre</h2>
+			        <h3>Maurice Blanchot</h3>
+			       <p><a href="laciudadeloslibros/laescrituradeldesastre.php">Desastre: lo que queda por decir cuando se ha dicho todo, ruina del habla, desfallecimiento de la escritura, 
+			rumor que murmura, lo que resta sin resto; siempre por venir, siempre pasado; histórico fuera-de-la-historia.</a></p>
 			      </div>
 			    </div>
+
+			    <div class="item">
+			    <div class="col-xx col-xs-6 col-sm-6 imagen-libro"><img src="assets/images/poe.jpg" alt="...">
+			    </div>
+			     <div class="col-xx col-xs-6 col-sm-6 texto-libro">
+			        <h2 class="numero">Poe. El trauma de una era</h2>
+			        <h3>Óscar Xavier Altamirano</h3>
+			       <p><a href="laciudadeloslibros/poe-eltraumadeunaera.php">Este no es un libro más sobre Poe: es un rescate de este clásico de la literatura para una nueva generación de lectores. 
+			De ahí su importancia indiscutible.</a> </p>
+			      </div>
+			    </div>
+			 
 			 </div>
 
 			  <!-- Controls -->
@@ -296,59 +262,4 @@
 </article>
 </section>
 
-<footer>
-<section class="container">
-	<article class="col-xx col-xs-5 col-sm-4 col-md-4">
-	<img src="assets/images/logoblanco.png">
-	<p>Revista Iberoamericana de ensayo y literatura</p>
-	</article>
-	<article class="col-xx col-xs-4 col-sm-4 col-md-4">
-		<h3>Contenido</h3>
-		<ul class="col-sm-6 col-md-5">
-			<li><a href="anteriores.html">Números</a></li>
-			<li><a href="">Tópicos</a></li>
-			<li><a href="">Libros</a></li>
-		</ul>
-		<ul class="col-sm-6 col-md-6">
-			<li><a href="">Nosotros</a></li>
-			<li><a href="">Contacto</a></li>
-		</ul>
-	</article>
-		
-	<article class="col-xx col-xs-3 col-sm-4 col-md-4">
-		<h3>Redes sociales</h3>
-		<a href="https://www.facebook.com/rfractal"><img src="assets/images/face.png" alt=""></a>
-	</article>
-</section>
-<section class="">
-	<article class="container">
-	<p class="col-sm-offset-8 col-sm-4">Todos los derechos reservados Revista Fractal 2016</p>
-	</article>
-</section>
-
-</footer>
-
-	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-	<script src="assets/js/bootstrap.js"></script>
-	<script src="assets/js/main.js"></script>
-	<script src="assets/js/wow.js"></script>
-	<script>
-    wow = new WOW(
-      {
-        animateClass: 'animated',
-        offset:       100,
-        callback:     function(box) {
-          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
-        }
-      }
-    );
-    wow.init();
-    document.getElementById('moar').onclick = function() {
-      var section = document.createElement('section');
-      section.className = 'section--purple wow fadeInDown';
-      this.parentNode.insertBefore(section, this);
-    };
-  </script>
-
-</body>
-</html>
+<?php include 'footer.php' ?>

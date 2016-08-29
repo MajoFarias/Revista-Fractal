@@ -1,57 +1,5 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<title>Revista Fractal</title>
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<link rel="stylesheet" href="../style.css">
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<script></script>
-</head>
-<body>
+<?php include 'header.php' ?>
 
-<header>
-	<nav class="menu navbar navbar-default navbar-fixed-top">
-		  <section class="menu-margen">
-		    <!-- Brand and toggle get grouped for better mobile display -->
-		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-		        <span class="sr-only">Toggle navigation</span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		      </button>
-		      
-		      <a class="" href="../index.html">
-		        <img class="img-responsive" alt="Brand" src="../assets/images/logo.jpg">
-		      </a>
-
-		    </div>
-              
-		    <!-- Collect the nav links, forms, and other content for toggling -->
-		    <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-		      <ul class="nav navbar-nav">
-		      	<li><a href="#">Números</a></li>
-		      	<li><a href="#">Tópicos</a></li>
-		        <li class="dropdown">
-		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nosotros<span class="caret"></span></a>
-		          <ul class="dropdown-menu">
-		            <li><a href="departamentos.html">Los orígenes</li>
-		            <!--<li role="separator" class="divider"></li>-->
-		            <li><a href="ubicacion.html">Quiénes somos</a></li>
-		          </ul>
-		        </li>
-		        <li><a href="#">Libros</a></li>
-		        <li><a href="#">Contacto</a></li>
-		        
-
-		      </ul>
-		      
-		    </div><!-- /.navbar-collapse -->
-		    </section>		    			  
-	</nav>
-</header>
 
 <section class="titulo">
 	<article class="">
@@ -64,8 +12,7 @@
 </section>
 <section class="texto container-fluid">
 <div class="col-sm-9">
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non tempus erat. In scelerisque erat in sollicitudin sollicitudin. Nullam finibus auctor laoreet. Nulla convallis vulputate dui, nec euismod libero aliquam hendrerit. Pellentesque mattis risus eros, ut pellentesque enim condimentum lobortis. Quisque id arcu lacinia, rhoncus velit eu, vulputate diam.
-	</p>
+<p></p>
     <p>Hacia finales del siglo xvi circulaba en España una leyenda alusiva a un hombre que se volvió loco de tanto leer libros. El alcance popular que tuvo esa breve ocurrencia acaso estribe en el mensaje final referente a todo aquello que puede emanar de un exceso, en este caso, el de la lectura. Ningún cervantista puede dar por seguro que esa leyenda fuese la gestación de lo que sería el <em>Quijote</em>, pero tampoco hay alguno que a cosa hecha la suprima. En estricto sentido se trata de una hipótesis. La anécdota, al igual que la leyenda, acabaría en el capítulo vi, justo cuando don Quijote vuelve a la aldea a bien de percatarse del escrutinio que el cura y el barbero hacen de su librería y así determinar qué volúmenes no merecen el castigo de fuego. Quepa aquí referir que las únicas obras que escapan de la quema son los cuatro mamotretos del <em>Amadís de Gaula</em> y la historia de Tirante el Blanco, tenidas como las mejores creaciones literarias del mundo, amén de otras obras de poesía.<br><br>
 El dato que aquí conviene destacar es que esta primera versión —conocida como &ldquo;leyenda primitiva&rdquo;, o <em>Ur-Quijote</em>, a partir del planteamiento sugerido por J. J. A. Bertrand, de acuerdo con el modelo del <em>Urfaust</em> de Goethe— sería una parodia del <em>Entremés de los romances</em>, obra que ha interesado sobremanera a los defensores de la &ldquo;leyenda&rdquo;. Fue Menéndez Pidal, en su trabajo &ldquo;Un aspecto en la elaboración del <em>Quijote</em>&rdquo;, el primero en sostener la defensa de que el <em>Entremés de los romances</em> fue anterior a la gran obra y que, por tanto, Cervantes pudo inspirarse en él para elaborar su personaje. A esta certeza se opone L. A. Murillo tras asentar que la fecha de composición del susodicho <em>Entremés</em> es posterior a 1605, con lo cual se enfría parcialmente la tesis de Menéndez Pidal.<br><br>
 Sin embargo, al margen de tinos e inexactitudes, es un hecho que Cervantes, a partir de la leyenda o ignorante de ella, presupone que &ldquo;la locura&rdquo;, como fundamento de una historia, le ofrecerá una largueza más sugestiva que extrapolada, desde luego no restringida a los rigores del entremés y a la delimitación temporal de las noveletas. La locura permite concebir excesos y le anticipa al creador ciertas desproporciones en cuanto trasponer los supuestos límites de la realidad. Es plausible que Cervantes captara en la lectura de libros de caballería la posibilidad que tiene un personaje de querer convertirse en otro, así como de vivir una metáfora vital inventada por él mismo: la realidad vista (y presentida) como ensoñación, o la ensoñación que al ensancharse genera una realidad más atemporal y, curiosamente, cada vez más específica. En la &ldquo;leyenda primitiva&rdquo; el hombre loco a la postre no es, y ni siquiera está prefigurado, un caballero, menos aún que idealice a un amor, una Dulcinea inalcanzable, y todavía menos probable que cuente con un escudero, pero sí queda latente el magma de lo inaudito: el riesgo que implica adentrarse en un bosque de lecturas infecciosas, pero también en la opción extrema de suponer que una realidad se sobrepone a otra, acaso porque la de origen sea insufi­ciente. Vislumbre autoral o estigma de incremento en la concepción de una aventura, la leyenda primitiva sí desborda la mera advertencia de aquello que inevitablemente conduce a la locura, más aún porque impone la condición libertaria como impulso y, a su vez, es el atisbo señero de que toda obra de valía deberá ser una refutación a lo que ofrece la realidad evidente. Es ahí donde Menéndez Pidal da cimiento a su tesis, al grado de sentenciar que sin ese referente Cervantes jamás habría podido percibir la dimensión de su personaje. He aquí la locura como punto de partida hacia las tantas transfiguraciones por venir.<br><br>
@@ -104,49 +51,7 @@ La inverosimilitud de la gran obra se cimienta desde estos entre­veros de orige
 </div>
 <div class="col-sm-3 bio">
 <h5>Sobre el autor</h5>
-Vivamus tempus dictum erat ut varius. Etiam in nulla mi. Quisque metus leo, ullamcorper nec nisl sed, facilisis semper ante. Phasellus feugiat egestas velit nec condimentum. Etiam viverra ligula eros, molestie molestie arcu varius eget. Morbi rhoncus orci sit amet lorem tempor, ut luctus nibh consectetur. Nunc finibus magna id mauris pulvinar, pellentesque dignissim nibh feugiat.</div>
+Daniel Sada (1953-2011) fue un poeta y narrador mexicano nacido en Mexicali, Baja California. Realizo estudios de Periodismo en la Escuela Carlos Septién García. Organizó y dirigió talles de poesía y narrativa en diversos lugares de México y su obra es elogiada como una renovación de la literatura en castellano. Entre sus libros más importantes se cuentan <em>Juguete de nadie y otras historias</em> (1985), <em>Porque parece mentira la verdad nunca se sabe</em> (1999) y <em>Aquí</em> (2008).
 </section>
 	
-<footer>
-<section class="container">
-	<article class="col-xx col-xs-5 col-sm-4 col-md-4">
-	<img src="../assets/images/logoblanco.png">
-	<p>Revista Iberoamericana de ensayo y literatura</p>
-	</article>
-	<article class="col-xx col-xs-4 col-sm-4 col-md-4">
-		<h3>Contenido</h3>
-		<ul class="col-sm-6 col-md-5">
-			<li><a href="">Números</a></li>
-			<li><a href="">Tópicos</a></li>
-			<li><a href="">Libros</a></li>
-		</ul>
-		<ul class="col-sm-6 col-md-6">
-			<li><a href="">Nosotros</a></li>
-			<li><a href="">Contacto</a></li>
-		</ul>
-	</article>
-		
-	<article class="col-xx col-xs-3 col-sm-4 col-md-4">
-		<h3>Redes sociales</h3>
-		<a href=""><img src="../assets/images/face.png" alt=""></a>
-		<a href=""><img src="../assets/images/twitter.png" alt=""></a>
-	</article>
-</section>
-<section class="">
-	<article class="container">
-	<p class="col-sm-offset-8 col-sm-4">Todos los derechos reservados Fractal 2016</p>
-	</article>
-</section>
-
-</footer>
-
-
-
-
-
-
-	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-	<script src="../assets/js/bootstrap.js"></script>
-	<script src="../assets/js/main.js"></script>
-</body>
-</html>
+<?php include 'footer.php' ?>

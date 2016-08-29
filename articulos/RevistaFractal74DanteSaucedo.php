@@ -1,57 +1,5 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<title>Revista Fractal</title>
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<link rel="stylesheet" href="../style.css">
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<script></script>
-</head>
-<body>
+<?php include 'header.php' ?>
 
-<header>
-	<nav class="menu navbar navbar-default navbar-fixed-top">
-		  <section class="menu-margen">
-		    <!-- Brand and toggle get grouped for better mobile display -->
-		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-		        <span class="sr-only">Toggle navigation</span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		      </button>
-		      
-		      <a class="" href="../index.html">
-		        <img class="img-responsive" alt="Brand" src="../assets/images/logo.jpg">
-		      </a>
-
-		    </div>
-              
-		    <!-- Collect the nav links, forms, and other content for toggling -->
-		    <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-		      <ul class="nav navbar-nav">
-		      	<li><a href="#">Números</a></li>
-		      	<li><a href="#">Tópicos</a></li>
-		        <li class="dropdown">
-		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nosotros<span class="caret"></span></a>
-		          <ul class="dropdown-menu">
-		            <li><a href="departamentos.html">Los orígenes</li>
-		            <!--<li role="separator" class="divider"></li>-->
-		            <li><a href="ubicacion.html">Quiénes somos</a></li>
-		          </ul>
-		        </li>
-		        <li><a href="#">Libros</a></li>
-		        <li><a href="#">Contacto</a></li>
-		        
-
-		      </ul>
-		      
-		    </div><!-- /.navbar-collapse -->
-		    </section>		    			  
-	</nav>
-</header>
 
 <section class="titulo">
 	<article class="">
@@ -66,9 +14,7 @@ un desierto</h1>
 </section>
 <section class="texto container-fluid">
 <div class="col-sm-9">
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non tempus erat. In scelerisque erat in sollicitudin sollicitudin. Nullam finibus auctor laoreet. Nulla convallis vulputate dui, nec euismod libero aliquam hendrerit. Pellentesque mattis risus eros, ut pellentesque enim condimentum lobortis. Quisque id arcu lacinia, rhoncus velit eu, vulputate diam.
-	</p>
-    <p></p>
+	<em></em>
     <h4>1</h4>
     <p>Leah Goldberg preguntó alguna vez:</p>
     <blockquote>¿Cómo ha de poder un solo pájaro<br>
@@ -142,49 +88,7 @@ un desierto</h1>
 </div>
 <div class="col-sm-3 bio">
 <h5>Sobre el autor</h5>
-Vivamus tempus dictum erat ut varius. Etiam in nulla mi. Quisque metus leo, ullamcorper nec nisl sed, facilisis semper ante. Phasellus feugiat egestas velit nec condimentum. Etiam viverra ligula eros, molestie molestie arcu varius eget. Morbi rhoncus orci sit amet lorem tempor, ut luctus nibh consectetur. Nunc finibus magna id mauris pulvinar, pellentesque dignissim nibh feugiat.</div>
-</section>
+Dante A. Saucedo es un filósofo mexicano con estudios en la Facultad de Filosofía y Letras de la UNAM. dante.asaucedo@gmail.com</section>
 	
-<footer>
-<section class="container">
-	<article class="col-xx col-xs-5 col-sm-4 col-md-4">
-	<img src="../assets/images/logoblanco.png">
-	<p>Revista Iberoamericana de ensayo y literatura</p>
-	</article>
-	<article class="col-xx col-xs-4 col-sm-4 col-md-4">
-		<h3>Contenido</h3>
-		<ul class="col-sm-6 col-md-5">
-			<li><a href="">Números</a></li>
-			<li><a href="">Tópicos</a></li>
-			<li><a href="">Libros</a></li>
-		</ul>
-		<ul class="col-sm-6 col-md-6">
-			<li><a href="">Nosotros</a></li>
-			<li><a href="">Contacto</a></li>
-		</ul>
-	</article>
-		
-	<article class="col-xx col-xs-3 col-sm-4 col-md-4">
-		<h3>Redes sociales</h3>
-		<a href=""><img src="../assets/images/face.png" alt=""></a>
-		<a href=""><img src="../assets/images/twitter.png" alt=""></a>
-	</article>
-</section>
-<section class="">
-	<article class="container">
-	<p class="col-sm-offset-8 col-sm-4">Todos los derechos reservados Fractal 2016</p>
-	</article>
-</section>
+<?php include 'footer.php' ?>
 
-</footer>
-
-
-
-
-
-
-	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-	<script src="../assets/js/bootstrap.js"></script>
-	<script src="../assets/js/main.js"></script>
-</body>
-</html>

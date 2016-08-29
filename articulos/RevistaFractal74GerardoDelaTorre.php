@@ -1,57 +1,4 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<title>Revista Fractal</title>
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<link rel="stylesheet" href="../style.css">
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<script></script>
-</head>
-<body>
-
-<header>
-	<nav class="menu navbar navbar-default navbar-fixed-top">
-		  <section class="menu-margen">
-		    <!-- Brand and toggle get grouped for better mobile display -->
-		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-		        <span class="sr-only">Toggle navigation</span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		      </button>
-		      
-		      <a class="" href="../index.html">
-		        <img class="img-responsive" alt="Brand" src="../assets/images/logo.jpg">
-		      </a>
-
-		    </div>
-              
-		    <!-- Collect the nav links, forms, and other content for toggling -->
-		    <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-		      <ul class="nav navbar-nav">
-		      	<li><a href="#">Números</a></li>
-		      	<li><a href="#">Tópicos</a></li>
-		        <li class="dropdown">
-		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nosotros<span class="caret"></span></a>
-		          <ul class="dropdown-menu">
-		            <li><a href="departamentos.html">Los orígenes</li>
-		            <!--<li role="separator" class="divider"></li>-->
-		            <li><a href="ubicacion.html">Quiénes somos</a></li>
-		          </ul>
-		        </li>
-		        <li><a href="#">Libros</a></li>
-		        <li><a href="#">Contacto</a></li>
-		        
-
-		      </ul>
-		      
-		    </div><!-- /.navbar-collapse -->
-		    </section>		    			  
-	</nav>
-</header>
+<?php include 'header.php' ?>
 
 <section class="titulo">
 	<article class="">
@@ -64,7 +11,7 @@
 </section>
 <section class="texto container-fluid">
 <div class="col-sm-9">
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non tempus erat. In scelerisque erat in sollicitudin sollicitudin. Nullam finibus auctor laoreet. Nulla convallis vulputate dui, nec euismod libero aliquam hendrerit. Pellentesque mattis risus eros, ut pellentesque enim condimentum lobortis. Quisque id arcu lacinia, rhoncus velit eu, vulputate diam.</p>
+<p></p>
     <p>Muy temprano, antes siquiera de aprender a leer, entré en relación con Cervantes y don Quijote de la Mancha, aunque no con Sancho, a quien conocí cuando terminaba yo la primaria y me encantó por su peculiar locuacidad. Aquel primer contacto se dio por mediación de mi padre (que no era hombre de letras ni criatura semejante). Huérfano por el lado paterno, desde 1910, cuando cumplió seis años comenzó a encargarse de su educación el ilustrado sacerdote Daniel Somohano, párroco en algún rincón del sur de Veracruz.<br><br>
       Gracias a las lecciones del cura, mi padre aprendió a leer, escribir, hacer cuentas y tocar el violín; más tarde estudió una carrera comercial que incluía contabilidad, inglés y artes taquigráficas y mecanográficas. Como una de sus obligaciones era ayudar en misa, aprendió latines que revivía en su vejez (murió a los 91 años). Y algo que aún recordaba al final de sus días —aunque había olvidado el nombre de sus hijos e incluso este parentesco—, era el primer capítulo de <em>El ingenioso hidalgo</em>, que el padre Somohano le había hecho aprender de memoria. Anciano ya, de pronto mi padre clavaba la mirada en el techo y se ponía a recitar algo como &ldquo;se le pasaban las noches leyendo de claro en claro, y los días de turbio en turbio; y así, del poco dormir y del mucho leer se le secó el celebro, de manera que vino a perder el juicio&rdquo;.<br><br>
       Comencé a leer el <em>Quijote</em> allá por el año 1948, en un ejemplar que pertenecía a mi madre. Era un volumen pesadísimo, de unas 800-900 páginas, pasta dura, papel grueso y satinado, de un tamaño que hoy se denominaría cuarto marquilla. No hice en aquellas aproximaciones una lectura íntegra sino parcial, pues sólo tragaba enteras las partes que me entretenían, que me provocaban risa, sobre todo las efusiones de refranes de Sancho que tanta cólera provocaban al principio en el hidalgo.<br><br>
@@ -84,56 +31,16 @@
       En el territorio de lo cómico, la hora de comer, por obra del doctor Pedro Recio de Agüero, que no le permite a Sancho probar siquiera las espléndidas viandas que le sirven, se convierte en tortura para el pobre gobernador y en motivo de gran regocijo para los que se encargan de la burla. Mas a la hora de gobernar, dice Cervantes, &ldquo;ordenó cosas tan buenas, que hasta hoy se guardan en aquel lugar y se nombran <em>Las constituciones del gran gobernador Sancho Panza</em>&rdquo;. Lo más sonado, sin embargo, son las resoluciones y sentencias del escudero llegada la hora de juzgar. Varios son los casos que le presentan y en cada uno dictamina con acierto, de modo que sus falsos súbditos &ldquo;quedaron todos admirados, y tuvieron a su gobernador por un nuevo Salomón&rdquo;.<br><br>
       El de mayor dificultad se le plantea al final de su gobierno y es, de todo el <em>Quijote</em>, el episodio que más me satisface. Cuenta que había un puente sobre un río y más allá del puente, una horca. El dueño del río y del puente había puesto una ley que estipulaba que quien quisiera pasar el puente tendría primero que jurar adónde y a qué iba, y si decía verdad, podría pasar, pero si decía mentira, moriría en la horca. Sucedió que le tomaron declaración a un hombre y juró que se dirigía a morir en la horca que allí estaba. Y reflexionaron los jueces: &ldquo;Si a este hombre le dejamos pasar libremente, mintió en su juramento, y, conforme a la ley, debe morir; y si le ahorcamos, él juró que iba a morir en aquella horca, y, habiendo jurado verdad, por la misma ley debe ser libre&rdquo;.<br><br>
       El problema, que parece insoluble, lo resuelve Sancho de manera magistral. Puesto que tan válidas son las razones para condenar al hombre como para absolverlo, sentencia &ldquo;que le dejen pasar libremente, pues siempre es alabado más el hacer bien que mal&rdquo;. Y para acrecentar su mérito, aunque parezca menoscabarlo ante el de su señor, indica que no ha pensado tal solución por sí mismo, sino que le vino a la memoria un precepto que le dio don Quijote la noche antes de que partiese a gobernar la ínsula, &ldquo;que fue que cuando la justicia estuviese en duda, me decantase y acogiese a la misericordia&rdquo;.<br><br>
-    Y esto, en los tiempos que corren, no es cosa irrisoria.</p></p>
+    Y esto, en los tiempos que corren, no es cosa irrisoria.</p>
 <p style="text-align:center;">
   <img src="../assets/images/icon.png" style="width:50px" alt="">
 </p>
 </div>
 <div class="col-sm-3 bio">
 <h5>Sobre el autor</h5>
-Vivamus tempus dictum erat ut varius. Etiam in nulla mi. Quisque metus leo, ullamcorper nec nisl sed, facilisis semper ante. Phasellus feugiat egestas velit nec condimentum. Etiam viverra ligula eros, molestie molestie arcu varius eget. Morbi rhoncus orci sit amet lorem tempor, ut luctus nibh consectetur. Nunc finibus magna id mauris pulvinar, pellentesque dignissim nibh feugiat.</div>
-</section>
-	
-<footer>
-<section class="container">
-	<article class="col-xx col-xs-5 col-sm-4 col-md-4">
-	<img src="../assets/images/logoblanco.png">
-	<p>Revista Iberoamericana de ensayo y literatura</p>
-	</article>
-	<article class="col-xx col-xs-4 col-sm-4 col-md-4">
-		<h3>Contenido</h3>
-		<ul class="col-sm-6 col-md-5">
-			<li><a href="">Números</a></li>
-			<li><a href="">Tópicos</a></li>
-			<li><a href="">Libros</a></li>
-		</ul>
-		<ul class="col-sm-6 col-md-6">
-			<li><a href="">Nosotros</a></li>
-			<li><a href="">Contacto</a></li>
-		</ul>
-	</article>
-		
-	<article class="col-xx col-xs-3 col-sm-4 col-md-4">
-		<h3>Redes sociales</h3>
-		<a href=""><img src="../assets/images/face.png" alt=""></a>
-		<a href=""><img src="../assets/images/twitter.png" alt=""></a>
-	</article>
-</section>
-<section class="">
-	<article class="container">
-	<p class="col-sm-offset-8 col-sm-4">Todos los derechos reservados Fractal 2016</p>
-	</article>
+Gerardo de la Torre es escritor, narrador y crítico literario. Nació en Oaxaca, Oaxaca, en 1938. Estudió teatro con Carlos Ancira y Rodolfo Valencia. Formó parte del taller literario de Juan José Arreola. De 1953 a 1972 trabajó como mecánico de refinería. Fue un miembro del Partido Comunista Mexicano. Ha colaborado en Revista Mexicana de Cultura, Unomásuno, El Universal, El Nacional, Novedades y Excélsior. Desde 1994 pertenece al Sistema Nacional de Creadores. Entre sus libros se cuentan <em>Ensayo general</em> (1970), <em>Relatos de la vida obrera</em> (1988), <em>Tobalá y otros mezcales oaxaqueños</em>(1998), <em>Nieve sobre Oaxaca</em> (2010) y <em>La muerte me pertenece</em> (2015).
+</div>
 </section>
 
-</footer>
+<?php include 'footer.php' ?>
 
-
-
-
-
-
-	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-	<script src="../assets/js/bootstrap.js"></script>
-	<script src="../assets/js/main.js"></script>
-</body>
-</html>

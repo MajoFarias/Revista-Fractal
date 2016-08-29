@@ -3,6 +3,9 @@
 	background-color: white;
 	/*border:1px solid #ccc;*/
 	padding:0;
+	@media (max-width:1280px){
+		margin:0;
+	}
 
 	div{
 
@@ -99,15 +102,46 @@
 	}
 	h1{
 		width: 800px;
+		@media (max-width:780px){
+			width: initial;
+		}
 	}
 }
 
 	.texto2{
+		border: 1px solid #ddd;
+    	background-color: white;
+    	padding: 60px 30px;
+    	margin: -100px 17% 100px;
+    	text-align: justify;
+    	@media (max-width:1400px){
+        margin:-100px 10% 100px;
+    	}
+    	@media (max-width:992px){
+        margin:-100px 3% 100px;
+    	}
+    	@media (max-width:768px){
+        margin:-100px 0% 100px;
+        border:none;
+        padding:20px 0px;
+        text-align: left;
+
+    	}
+    	p{
+    		line-height: 25px;
+    		text-align: left;
+    		margin-left:0;
+
+    	}
 		p:nth-child(1){
+			padding: 30px 0 0 !important;
+
+		}
+
+		p:last-child{
 			margin-left:0;
-			padding: 30px 0;
+			padding: 0px 0 30px;
 			text-align: left;
-			line-height: 25px;
 		}
 		p:nth-child(1):first-letter{
         font-size: 60px; 
@@ -116,14 +150,15 @@
         line-height: 0.8; 
         color: $ocrelight;
         font-weight: 700;
+    	}
 
-    }
 
 		article.libro{
 			background-color:#f2f2f2;
 			height: 100%;
 			float: left;
-			padding:0 10px;
+			padding:0 25px;
+			margin-top:-30px;
 			div:nth-child(1){
 				margin-top: 40px;
 			}
@@ -131,6 +166,28 @@
 				text-align: left;
 			}
 		}
+
+		.bio{
+	        border-left:1px solid #ccc;
+	        padding-left:30px;
+	        font-size: 12px;
+	        line-height: 20px;
+	        margin-top: 20px;
+	        text-align: left;
+	        @media (max-width:768px){
+	            float: left;
+	            margin-top: 40px;
+
+	        }
+
+	        h5{
+	        font-size: 15px;
+	        margin:0;
+	        text-transform: uppercase;
+	        color:$ocrelight;
+	    	}
+
+    	}
 
 	}
 
