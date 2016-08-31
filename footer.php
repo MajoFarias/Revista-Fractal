@@ -14,14 +14,14 @@
 		</ul>
 		<ul class="col-sm-6 col-md-6">
 			<li><a href="quienessomos.php">Nosotros</a></li>
-			<li><a href="quienessomos.php">Los orígenes</a></li>
+			<li><a href="losorigenes.php">Los orígenes</a></li>
 			<li><a href="http://www.mxfractal.org/indice.html">Índice</a></li>
 		</ul>
 	</article>
 		
 	<article class="col-xx col-xs-3 col-sm-4 col-md-4">
 		<h3>Redes sociales</h3>
-		<a href="https://www.facebook.com/rfractal"><img src="assets/images/face.png" alt=""></a>
+		<a href="https://www.facebook.com/rfractal" target="_blank"><img src="assets/images/face.png" alt=""></a>
 	</article>
 </section>
 <section class="">

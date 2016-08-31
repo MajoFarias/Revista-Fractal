@@ -142,7 +142,7 @@
 							<h2>Cuando el sentido deja de hacer mundo <br>
 							<span>Jean Luc Nancy</span></h2>
 
-							<a href="#">View more</a>
+							<a href="articulos/RevistaFractal72JeanLucNancy.php">View more</a>
 						</figcaption>			
 					</figure>
 					<figure class="effect-oscar wow fadeIn" data-wow-delay=".3s">
@@ -151,7 +151,7 @@
 							<h2>El laberinto sin centro de Bolaño <br>
 							<span>Gilles Harvey</span>
 							</h2>
-							<a href="#">View more</a>
+							<a href="articulos/RevistaFractal56GilesHarvey.php">View more</a>
 						</figcaption>			
 					</figure>
 					<figure class="effect-oscar wow fadeIn" data-wow-delay=".5s">
@@ -159,7 +159,7 @@
 						<figcaption>
 							<h2>El acceso a las fuentes o un nuevo enciclopedismo digital<br> <span>Luigi Amara</span></h2>
 							
-							<a href="#">View more</a>
+							<a href="articulos/RevistaFractal57LuigiAmara.php">View more</a>
 						</figcaption>			
 					</figure>
 					<figure class="effect-oscar wow fadeIn" data-wow-delay=".7s">
@@ -168,7 +168,7 @@
 							<h2>El malestar en la historia<br><span>Roger Chartier, Alfonso Mendiola, Ilán Semo</span></h2>
 							
 							<!--<h4>Leer Más</h4>-->
-							<a href="#">View more</a>
+							<a href="articulos/RevistaFractal3ElMalestarEnLaHistoria.php">View more</a>
 						</figcaption>			
 					</figure>
 	</div>
@@ -194,7 +194,7 @@
 			  <!-- Wrapper for slides -->
 			  <div class="carousel-inner" role="listbox">
 			    <div class="item active">
-			    <div class="col-xx col-xs-6 col-sm-6 imagen-libro"><img src="assets/images/juntenlospedazos.jpg" alt="...">
+			    <div class="col-xx col-xs-6 col-sm-6 imagen-libro"><a href="laciudadeloslibros/juntenlospedazos.php"><img src="assets/images/juntenlospedazos.jpg" alt="..."></a>
 			    </div>
 			     <div class="col-xx col-xs-6 col-sm-6 texto-libro">
 			        <h2 class="numero">Junten los pedazos</h2>
@@ -205,7 +205,7 @@
 			    </div>
 			    
 			    <div class="item">
-			    <div class="col-xx col-xs-6 col-sm-6 imagen-libro"><img src="assets/images/laescrituradeldesastre.jpg" alt="...">
+			    <div class="col-xx col-xs-6 col-sm-6 imagen-libro"><a href="laciudadeloslibros/laescrituradeldesastre.php"><img src="assets/images/laescrituradeldesastre.jpg" alt="..."></a>
 			    </div>
 			     <div class="col-xx col-xs-6 col-sm-6 texto-libro">
 			        <h2 class="numero">La escritura del desastre</h2>
@@ -216,7 +216,7 @@
 			    </div>
 
 			    <div class="item">
-			    <div class="col-xx col-xs-6 col-sm-6 imagen-libro"><img src="assets/images/poe.jpg" alt="...">
+			    <div class="col-xx col-xs-6 col-sm-6 imagen-libro"><a href="laciudadeloslibros/poe-eltraumadeunaera.php"><img src="assets/images/poe.jpg" alt="..."></a>
 			    </div>
 			     <div class="col-xx col-xs-6 col-sm-6 texto-libro">
 			        <h2 class="numero">Poe. El trauma de una era</h2>
@@ -249,10 +249,10 @@
 				<div class="col-xx col-xs-6 col-sm-6"><img src="assets/images/anterior.jpg" alt=""></div>
 				<div class="col-xx col-xs-6 col-sm-6">
 				<ul>
-				<li><a href="">Ser = acontecimiento<br><em>Mehdi Belhaj Kacem</em></a></li>
-				<li><a href="">El oído trágico de los intelectuales<br><em>Peter Starr</em></a></li>
-				<li><a href="">Michel Onfray y el psicoanálisis de Freud: el odio como método <br><em>Cecilia pacheco</em></a></li>
-				<li><a href="">Bolívar Echeverría y el malestar en la cultura<br><em>Andrés Luna Jiménez</em></a></li>
+				<li>Ser = acontecimiento<br><strong>Mehdi Belhaj Kacem</strong></li>
+				<li>El oído trágico de los intelectuales<br><strong>Peter Starr</strong></li>
+				<li>Michel Onfray y el psicoanálisis de Freud: el odio como método <br><strong>Cecilia pacheco</strong></a></li>
+				<li>Bolívar Echeverría y el malestar en la cultura<br><strong>Andrés Luna Jiménez</strong></li>
 
 				</ul>
 				</div>

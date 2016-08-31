@@ -32,7 +32,7 @@
 		    <!-- Collect the nav links, forms, and other content for toggling -->
 		    <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
 		      <ul class="nav navbar-nav">
-		      	<li><a href="../anteriores.html">Números</a></li>
+		      	<li><a href="http://www.mxfractal.org/antes1.html">Anteriores</a></li>
 		      	<!--<li><a href="#">Tópicos</a></li>-->
 		        <li class="dropdown">
 		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nosotros<span class="caret"></span></a>
@@ -42,9 +42,9 @@
 		            <li><a href="../quienessomos.php">Quiénes somos</a></li>
 		          </ul>
 		        </li>
-		        <li><a href="http://mxfractal.wixsite.com/librosfractal">Libros</a></li>
-		        <li><a href="http://www.mxfractal.org/">Archivo Fractal</a></li>
-		        <li><a href="../contacto.html">Contacto</a></li>
+		        <li><a href="http://mxfractal.wixsite.com/librosfractal" target="_blank">Catálogo</a></li>
+		        <li><a href="http://www.mxfractal.org/indice.html">Índice</a></li>
+		        <li><a href="http://www.mxfractal.org/distribuidores.htm">Librerías</a></li>
 		      </ul> 
 		    </div>
 		    </section>		    			  

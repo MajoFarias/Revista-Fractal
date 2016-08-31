@@ -7,13 +7,15 @@
 	<article class="col-xx col-xs-4 col-sm-4 col-md-4">
 		<h3>Contenido</h3>
 		<ul class="col-sm-6 col-md-5">
-			<li><a href="">Números</a></li>
-			<li><a href="">Tópicos</a></li>
-			<li><a href="">Libros</a></li>
+			<li><a href="http://www.mxfractal.org/antes1.html">Anteriores</a></li>
+			<li><a href="http://mxfractal.wixsite.com/librosfractal">Catálogo</a></li>
+			<li><a href="http://www.mxfractal.org/distribuidores.htm">Librerías</a></li>
+
 		</ul>
 		<ul class="col-sm-6 col-md-6">
-			<li><a href="">Nosotros</a></li>
-			<li><a href="">Contacto</a></li>
+			<li><a href="../quienessomos.php">Nosotros</a></li>
+			<li><a href="../losorigenes.php">Los orígenes</a></li>
+			<li><a href="http://www.mxfractal.org/indice.html">Índice</a></li>
 		</ul>
 	</article>
 		

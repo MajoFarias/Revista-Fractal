@@ -28,9 +28,7 @@ Ciudad de México, 2015</h5>
 			</p>
 		</div>
 	</article>
-<div class="col-sm-12 bio">
-<h5>Sobre el autor</h5>
-Vivamus tempus dictum erat ut varius. Etiam in nulla mi. Quisque metus leo, ullamcorper nec nisl sed, facilisis semper ante. Phasellus feugiat egestas velit nec condimentum. Etiam viverra ligula eros, molestie molestie arcu varius eget. Morbi rhoncus orci sit amet lorem tempor, ut luctus nibh consectetur. Nunc finibus magna id mauris pulvinar, pellentesque dignissim nibh feugiat.</div>
+
 </section>
 
 <?php include 'footer.php' ?>
