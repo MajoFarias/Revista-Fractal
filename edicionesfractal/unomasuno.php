@@ -1,3 +1,5 @@
+<?php $title = 'Genoveva Flores Quintero - Unomásuno: victorias perdidas del periodismo mexicano (1977-1989) | Revista Fractal'; ?>
+
 <?php include 'header.php' ?>
 
 <section class="titulo titulo2">
@@ -21,7 +23,7 @@ México DF, 2014 </h5>
 	</article>
 <div class="col-sm-12 bio">
 <h5>Sobre el autor</h5>
-Vivamus tempus dictum erat ut varius. Etiam in nulla mi. Quisque metus leo, ullamcorper nec nisl sed, facilisis semper ante. Phasellus feugiat egestas velit nec condimentum. Etiam viverra ligula eros, molestie molestie arcu varius eget. Morbi rhoncus orci sit amet lorem tempor, ut luctus nibh consectetur. Nunc finibus magna id mauris pulvinar, pellentesque dignissim nibh feugiat.</div>
+Genoveva Flores Quintero es una historiadora y periodista mexicana. Realizó estudios de Periodismo y Comunicación Colectiva en la UNAM hasta 1996. Cuenta con una maestría en Historiografía de México en la UAM y un doctorado en Historia en la UIA. Ha ocupado diversos puestos en periódicos como <em>Vanguardia de Monclova</em>, <em>EL Financiero</em>, <em>Excélsior</em>, <em>Reforma</em>, <em>Unosmásuno</em> y <em>El Día</em>. Imparte diversos cursos en el Instituto Tecnológico y de Estudios Superiores de Monterrey.</div>
 </section>
 
 <?php include 'footer.php' ?>

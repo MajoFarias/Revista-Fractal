@@ -1,3 +1,6 @@
+
+<?php $title ='Ilán Semo - El anacronismo como método de interpretación de imágenes del pasado | Revista Fractal'; ?>
+
 <?php include 'header.php' ?>
 <section class="titulo">
 	<article class="">

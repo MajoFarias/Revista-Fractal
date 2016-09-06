@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>Revista Fractal</title>
+	<title><?php echo $title; ?></title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="../style.css">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
@@ -23,7 +23,7 @@
 		        <span class="icon-bar"></span>
 		      </button>
 		      
-		      <a class="" href="../index.php">
+		      <a class="" href="../index.html">
 		        <img class="img-responsive" alt="Brand" src="../assets/images/logo.jpg">
 		      </a>
 

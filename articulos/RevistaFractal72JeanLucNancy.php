@@ -1,3 +1,5 @@
+<?php $title = 'Jean Luc Nancy - Cuando el sentido deja de hacer mundo | Revista Fractal'; ?>
+
 <?php include 'header.php' ?>
 <section class="titulo">
 	<article class="">

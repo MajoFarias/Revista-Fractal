@@ -25,6 +25,10 @@ María José Farías
 <p>Alan Cruz, Andrés Luna, Ilya Semo Bechet, Maricruz Lira</p>
 <p></p>
 
+<h3>Contacto a:</h3>
+<a href="mailto:laventanafractal@gmail.com">laventanafractal@gmail.com</a>
+<br><br>
+
 </section>
 
 <?php include 'footer.php' ?>

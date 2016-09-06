@@ -1,3 +1,5 @@
+<?php $title = 'Pedro Serrano - Defensas | Revista Fractal'; ?>
+
 <?php include 'header.php' ?>
 
 
@@ -22,7 +24,7 @@ México DF, 2014 </h5>
 	</article>
 <div class="col-sm-12 bio">
 <h5>Sobre el autor</h5>
-Vivamus tempus dictum erat ut varius. Etiam in nulla mi. Quisque metus leo, ullamcorper nec nisl sed, facilisis semper ante. Phasellus feugiat egestas velit nec condimentum. Etiam viverra ligula eros, molestie molestie arcu varius eget. Morbi rhoncus orci sit amet lorem tempor, ut luctus nibh consectetur. Nunc finibus magna id mauris pulvinar, pellentesque dignissim nibh feugiat.</div>
+Pedro Serrano es un poeta nacido en Montreal, Canadá, el 4 de mayo de 1957. Estudió Lengua y Literaturas Hispánicas en la Facultad de Filosofía y Letras la UNAM. Cuenta con una maestría en Filosofía en la Universidad de Londres, un doctorado en Letras en la UNAM y un diplomado para profesores de Lengua y Literatura Española en el Instituto de Cooperación Iberoamericana. Es profesor de tiempo completo y coordinador del posgrado en Letras de la FFyL de la UNAM. Fue fundador de la revista de literatura <em>Cartapacios</em>, jefe de redacción de la revista <em>México en el Arte</em> y miembro fundador de <em>Fractal</em>. Entre sus libros se cuentan <em>El miedo</em> (1986), <em>Ediciones del Equilibrista</em> (1994), <em>Desplazamientos</em> (2007) y <em>Nueces</em> (2009).</div>
 </section>
 
 <?php include 'footer.php' ?>

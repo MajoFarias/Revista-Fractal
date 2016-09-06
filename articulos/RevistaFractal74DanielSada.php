@@ -1,3 +1,4 @@
+<?php $title = 'Daniel Sada - Fractales Quijotianos | Revista Fractal'  ?>
 <?php include 'header.php' ?>
 
 

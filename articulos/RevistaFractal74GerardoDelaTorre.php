@@ -1,3 +1,5 @@
+<?php $title = 'Gerardo de la Torre - El puente y el río | Revista Fractal'; ?>
+
 <?php include 'header.php' ?>
 
 <section class="titulo">

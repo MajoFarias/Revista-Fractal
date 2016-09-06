@@ -1,3 +1,5 @@
+<?php $title = 'Óscar Xavier Altamirano - Poe. El trauma de una era | Revista Fractal'; ?>
+
 <?php include 'header.php' ?>
 
 

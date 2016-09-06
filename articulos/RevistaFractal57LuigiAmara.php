@@ -1,3 +1,5 @@
+<?php $title = 'Luigi Amara - El acceso a las fuentes o un nuevo enciclopedismo digital | Revista Fractal'; ?>
+
 <?php include 'header.php' ?>
 <section class="titulo">
 	<article class="">

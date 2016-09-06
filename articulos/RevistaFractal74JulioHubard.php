@@ -1,3 +1,5 @@
+<?php $title = 'Julio Hubard - Carta para excusarme de participar en un homenaje al Quijote | Revista Fractal'  ?>
+
 <?php include 'header.php' ?>
 
 <section class="titulo">

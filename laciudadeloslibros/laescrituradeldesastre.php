@@ -1,3 +1,5 @@
+<?php $title = 'Maurice Blanchot - La escritura del desastre | Revista Fractal'; ?>
+
 <?php include 'header.php' ?>
 
 

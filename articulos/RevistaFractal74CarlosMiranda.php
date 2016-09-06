@@ -1,3 +1,5 @@
+<?php $title = 'Carlos Miranda - Fractales quijotianos | Revista Fractal'; ?>
+
 <?php include 'header.php' ?>
 
 <section class="titulo">

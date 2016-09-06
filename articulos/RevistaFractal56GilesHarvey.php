@@ -1,3 +1,5 @@
+<?php $title = 'Giles Harvey - Caída épica. El laberinto sin centro de Bolaño | Revista Fractal'; ?>
+
 <?php include 'header.php' ?>
 <section class="titulo">
 	<article class="">

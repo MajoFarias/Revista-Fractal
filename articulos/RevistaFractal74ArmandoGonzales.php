@@ -1,3 +1,5 @@
+<?php $title = 'Armando González Torres - El quijotismo o las desventuras de la virtud liberal en América Latina | Revista Fractal'; ?>
+
 <?php include 'header.php' ?>
 
 <section class="titulo">

@@ -1,3 +1,5 @@
+<?php $title = 'Giorgio Agamben - Para una teoría de la potencia destituyente | Revista Fractal'; ?>
+
 <?php include 'header.php' ?>
 
 

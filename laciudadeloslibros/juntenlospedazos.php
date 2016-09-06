@@ -1,3 +1,5 @@
+<?php $title = 'Ismet Prcic - Junten los pedazos | Revista Fractal'; ?>
+
 <?php include 'header.php' ?>
 
 

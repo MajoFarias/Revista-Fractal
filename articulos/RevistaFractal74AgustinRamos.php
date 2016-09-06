@@ -1,3 +1,5 @@
+<?php $title ='Agustín Ramos - ¿Leoncitos a mí? Sueños compartibles | Revista Fractal'; ?>
+
 <?php include 'header.php' ?>
 
 

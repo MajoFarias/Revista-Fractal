@@ -1,5 +1,7 @@
-<?php include 'header.php' ?>
 
+<?php $title = 'Dante A. Saucedo - 12 397 Fórmulas para poblar un desierto | Revista Fractal'; ?>
+
+<?php include 'header.php' ?>
 
 <section class="titulo">
 	<article class="">

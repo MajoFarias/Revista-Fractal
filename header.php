@@ -23,7 +23,7 @@
 		        <span class="icon-bar"></span>
 		      </button>
 		      
-		      <a class="" href="index.php">
+		      <a class="" href="index.html">
 		        <img class="img-responsive" alt="Brand" src="assets/images/logo.jpg">
 		      </a>
 

@@ -1,3 +1,5 @@
+<?php $title = 'Javier García - El lector apócrifo | Revista Fractal'  ?>
+
 <?php include 'header.php' ?>
 
 

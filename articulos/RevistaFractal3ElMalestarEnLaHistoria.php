@@ -1,10 +1,15 @@
+<?php $title = 'Roger Chartier, Alfonso Mendiola e Ilán Semo - El malestar en la historia | Revista Fractal'; ?>
+
 <?php include 'header.php' ?>
 <section class="titulo">
 	<article class="">
 		<h3>Número 3</h3>
 		<h1>El malestar en la historia
 </h1>
-		<h2>Discusión</h2>
+		
+		<h2>Roger Chartier, Alfonso Mendiola e Ilán Semo</h2>
+		<h4 style="color:#ccc; font-weight:100; font-size:16px;">Discusión
+</h4>
 		<div class="raya"></div>
 
 	</article>
@@ -65,7 +70,7 @@
 </p>
 </div>
 <div class="col-sm-3 bio">
-<h5>Sobre el autor</h5>
+<h5>Sobre los autores</h5>
 Roger Chartier es un historiador francés nacido en Lyon en 1945. Entre 1964 y 1969 estudió en la École Normale Supérieure de Saint-Cloud y paralelamente se licenció en la Sorbona. Chartier logró la agregación de Historia en 1969. Trabajó de inmediato como profesor en el instituto Louis-le-Grand de París. Pero ya en 1970 entró como profesor ayudante de Historia Moderna en la Universidad de París y, luego, como director de estudios en la Escuela Superior de Estudios en Ciencias Sociales, hasta 2006. Considerado parte de la cuarta generación de la Escuela de los Anales, ha publicado <em>L'éducation en France du XVIe au XVIIIe siècle</em> (1976) y dirigido <em>La correspondance. Les usages de la lettre au XIXe siècle</em> (1991). Ha colaborado en importantes obras colectivas como <em>Hacer la historia</em> (1974) y <em>La nueva historia</em> (1978).<br><br>
 Alfonso Mendiola es un antropólogo e historiador mexicano. Sus primeros estudios en Antropología e Historia los realizó en la Escuena Nacional de Antropología e Historia. Realizó un doctorado en Historia con la Universidad Iberoamericana y es director de la revista <em>Historia y Grafía</em>. Entre sus libros se encuentran <em>Bernal Díaz del Castillo: verdad romanesca o verdad historiográfica</em> (1995), <em>Retórica, comunicación y realidad</em> (2003) y <em>Michel de Certeau. Epistemología, erótica y duelo</em> (2014).<br><br>
 Ilán Semo es historiador y labora en el Departamento de Historia de la Universidad Iberoamericana. Imparte la clase de "Historia conceptual " en el Colegio de Historia de la FFyL en la UNAM. Autor de los libros <em>El Ocaso de los mitos</em>, <em>La memoria dividida</em> y <em>La rueda del azar</em> entre otros, colaboró en la compilación de las <em>Obras</em> de Norbert Lechner, aparecidas recientemente. Dirigió la revista <em>El Buscón</em> y es miembro del consejo de redacción de las revistas <em>Historias e Historia y Grafía</em>. Forma parte del Consejo Institucional de <em>17</em>, <em>Instituto de Estudios Críticos</em>. Colabora regularmente en el periódico <em>La Jornada</em>. ilansemo@hotmail.com

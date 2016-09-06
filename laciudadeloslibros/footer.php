@@ -19,7 +19,8 @@
 		
 	<article class="col-xx col-xs-3 col-sm-4 col-md-4">
 		<h3>Redes sociales</h3>
-		<a href="https://www.facebook.com/rfractal" target="_blank"><img src="../assets/images/face.png" alt=""></a>
+		<a href="https://www.facebook.com/fractalrevista/" target="_blank"><img src="../assets/images/face.png" alt=""></a>
+		<a href="https://twitter.com/ventanafractal" target="_blank"><img src="../assets/images/twitter.png" alt=""></a>
 	</article>
 </section>
 <section class="">
